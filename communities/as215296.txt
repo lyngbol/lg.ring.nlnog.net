@@ -1,4 +1,8 @@
 # AS215296 Large Communities. Contact noc@as215296.net for clarification.
+# 101:* = Route type classification
+# 102:* = Learned via IXP Route Server
+# 201:* = Learned via Direct Peering
+# 301:* = Learned from Downstream
 215296:101:100,Route learned via Direct Peering
 215296:101:200,Route learned via Direct Transit
 215296:101:300,Route learned via Tunneled Peering
@@ -6,7 +10,28 @@
 215296:101:500,Route originated at AS215296
 215296:102:47498,Peering via FogIXP Route Server (AS47498)
 215296:102:209643,Peering via LocIX Route Server (AS209643)
-215296:102:56393,Peering via FrysIX Route Server (AS52393)
+215296:102:56393,Peering via FrysIX Route Server (AS56393)
+215296:102:34307,Peering via NL-IX Route Server (AS34307)
+215296:102:35708,Peering via 4IXP Route Server (AS35708)
+215296:102:209762,Peering via EVIX Route Server (AS209762)
+215296:102:31561,Peering via Nine-IX Route Server (AS31561)
+215296:102:41441,Peering via Speed-IX Route Server (AS41441)
+215296:102:48193,Peering via PITER-IX Frankfurt Route Server (AS48193)
+215296:102:49917,Peering via LSIX Route Server (AS49917)
+215296:102:56584,Peering via InterIX Route Server (AS56584)
+215296:102:59613,Peering via Giganet IXN Route Server (AS59613)
+215296:102:6777,Peering via AMS-IX Route Server (AS6777)
 215296:201:47498,Direct Peering via FogIXP (AS47498)
 215296:201:209643,Direct Peering via LocIX (AS209643)
-215296:201:56393,Direct Peering via FrysIX (AS52393)
+215296:201:56393,Direct Peering via FrysIX (AS56393)
+215296:201:34307,Direct Peering via NL-IX (AS34307)
+215296:201:35708,Direct Peering via 4IXP (AS35708)
+215296:201:202580,Direct Peering via 1-NL (AS202580)
+215296:201:41441,Direct Peering via Speed-IX (AS41441)
+215296:201:48193,Direct Peering via PITER-IX Frankfurt (AS48193)
+215296:201:49917,Direct Peering via LSIX (AS49917)
+215296:201:56584,Direct Peering via InterIX (AS56584)
+215296:201:59613,Direct Peering via Giganet IXN (AS59613)
+215296:201:6777,Direct Peering via AMS-IX (AS6777)
+215296:301:200236,Learned from Downstream (AS200236)
+215296:301:213409,Learned from Downstream (AS213409)
